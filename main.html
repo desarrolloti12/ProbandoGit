@@ -103,6 +103,22 @@ p {
 span {
     color: #2BD6B4;
 }
+table{border-collapse:collapse;}
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
+}
   </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -121,6 +137,39 @@ span {
     <div class="animation start-home"></div>
   </nav>
   
+  <br>
+  <center>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
   
 </body>
 </html>
